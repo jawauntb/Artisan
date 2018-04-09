@@ -8,12 +8,12 @@ import javax.swing.border.*;
 //                   J Brown 2016 for Aarathi Prasad-Amherst College
 
 
-public class Lab3Panel extends JPanel implements ActionListener {
+public class ArtPanel extends JPanel implements ActionListener {
 
-    private Lab3Canvas myCanvas;
+    private ArtCanvas myCanvas;
     private JButton colorButton;
 
-    Lab3Panel() {
+    ArtPanel() {
 
 	setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 
@@ -34,7 +34,7 @@ public class Lab3Panel extends JPanel implements ActionListener {
 	
 	add(Box.createVerticalStrut(20));
 
-	myCanvas = new Lab3Canvas();
+	myCanvas = new ArtCanvas();
 	add(myCanvas);
 	myCanvas.setAlignmentX(0.5f);
 
