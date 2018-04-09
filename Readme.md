@@ -1,5 +1,5 @@
 Three .java files work together to form a single program. Run the program
-by typing <java Artisan>
+by typing " <java Artisan> "
 
 How does it function?
 The main method, in class Artisan, creates a graphics frame. The frame creates a
