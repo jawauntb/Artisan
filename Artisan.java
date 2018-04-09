@@ -16,7 +16,7 @@ public class Artisan extends JFrame {
 
     public static void main (String[] args) {
 
-	new Artisan();   // create a new Lab3 frame
+	new Artisan();   // create a new Artisan art making frame
 
     }
 }
